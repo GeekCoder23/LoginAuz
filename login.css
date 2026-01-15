@@ -14,7 +14,7 @@
 
 body {
     min-height: 100vh;
-    background: white;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 h1 {
    position:absolute;
     top: 10px;
-    background: linear-gradient(135deg, #ffffff, #8fe1fc, #2c5364);
+    background: white;
     padding: 15px 0;
     z-index: 1000;
     margin-bottom: 200px;
@@ -154,6 +154,7 @@ h1 {
 }
 
 }
+
 
 
 
