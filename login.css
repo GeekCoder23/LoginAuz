@@ -134,14 +134,26 @@ h1 {
     .container {
         grid-template-columns: 1fr;
     }
+        h1 {
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+}
 
 }
 
 @media (min-width: 100px) and (max-width: 1000px) {
     .container {
         grid-template-columns: repeat(1, 1fr);;
+        
     }
+        h1 {
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+}
 
 }
+
 
 
